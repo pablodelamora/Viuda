@@ -142,7 +142,7 @@ int main()
 
 
 	//Rondas normales
-	bool tocar = false;
+	/*bool tocar = false;
 	auto it = listaDeJugadores.begin();
 	while (it != listaDeJugadores.end() && !deckVolteado)
 	{
@@ -159,7 +159,7 @@ int main()
 	if (it == listaDeJugadores.end())
 	{
 		it = listaDeJugadores.begin();
-	}
+	}*/
 	
 
 

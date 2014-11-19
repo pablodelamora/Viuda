@@ -15,4 +15,3 @@ public:
 	int getPalo();
 	friend ostream& operator <<(ostream& os, Carta& carta);
 };
-
