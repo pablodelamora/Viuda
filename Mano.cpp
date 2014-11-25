@@ -324,6 +324,8 @@ void Mano::HacerJugada()
 
 ostream& operator<<(ostream& os, Mano& mano)
 {
+	os << "--------------------------------------------------------------" << endl;
+	os << "Cartas de: " << mano.getNombreJugador() << endl << endl;
 	int j = 1;
 	for (auto i = mano.cartas.begin(); i != mano.cartas.end(); i++)
 	{
